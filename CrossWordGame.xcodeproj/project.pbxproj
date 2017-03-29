@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057DB3120424EA936DDE998B /* Pods_CrossWordGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92568D960F6EE155B047396E /* Pods_CrossWordGameUITests.framework */; };
+		351F72341E80589F006F4128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F72331E80589F006F4128 /* AppDelegate.swift */; };
+		351F72361E80589F006F4128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F72351E80589F006F4128 /* ViewController.swift */; };
+		351F723B1E80589F006F4128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351F723A1E80589F006F4128 /* Assets.xcassets */; };
+		351F723E1E80589F006F4128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351F723C1E80589F006F4128 /* LaunchScreen.storyboard */; };
+		351F72491E80589F006F4128 /* CrossWordGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F72481E80589F006F4128 /* CrossWordGameTests.swift */; };
+		351F72541E80589F006F4128 /* CrossWordGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F72531E80589F006F4128 /* CrossWordGameUITests.swift */; };
+		351F72621E8059AF006F4128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 351F72611E8059AF006F4128 /* GoogleService-Info.plist */; };
+		351F72651E805BD9006F4128 /* LoginWithTwitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F72641E805BD9006F4128 /* LoginWithTwitter.swift */; };
+		35509D1A1E81486D00EB0502 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35509D191E81486D00EB0502 /* SWRevealViewController.m */; };
+		355C71311E82C34300619587 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C71301E82C34300619587 /* MenuTableViewController.swift */; };
+		355C713F1E82CD9900619587 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C713C1E82CD9900619587 /* ScoreViewController.swift */; };
+		355C71401E82CD9900619587 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C713D1E82CD9900619587 /* SettingViewController.swift */; };
+		355C71411E82CD9900619587 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C713E1E82CD9900619587 /* AboutViewController.swift */; };
+		355C71431E82CE4000619587 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C71421E82CE4000619587 /* MenuViewController.swift */; };
+		355C71451E82CE5900619587 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C71441E82CE5900619587 /* MenuTableViewCell.swift */; };
+		35C324E91E8AE1F9004386E8 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C324E81E8AE1F9004386E8 /* LoginController.swift */; };
+		35C324EE1E8BF30D004386E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C324EC1E8BF30D004386E8 /* Main.storyboard */; };
+		6AFBC9F9AD381E377E7081CD /* Pods_CrossWordGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE7AEA176673B4721B61014 /* Pods_CrossWordGameTests.framework */; };
+		8E393ACA8255D8B0616BA3B6 /* Pods_CrossWordGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA1D8493FB32AEBB8E000D0 /* Pods_CrossWordGame.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		351F72451E80589F006F4128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351F72281E80589F006F4128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 351F722F1E80589F006F4128;
+			remoteInfo = CrossWordGame;
+		};
+		351F72501E80589F006F4128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351F72281E80589F006F4128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 351F722F1E80589F006F4128;
+			remoteInfo = CrossWordGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		351F72301E80589F006F4128 /* CrossWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		351F72331E80589F006F4128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		351F72351E80589F006F4128 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		351F723A1E80589F006F4128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		351F723D1E80589F006F4128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		351F723F1E80589F006F4128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351F72441E80589F006F4128 /* CrossWordGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossWordGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		351F72481E80589F006F4128 /* CrossWordGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossWordGameTests.swift; sourceTree = "<group>"; };
+		351F724A1E80589F006F4128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351F724F1E80589F006F4128 /* CrossWordGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossWordGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		351F72531E80589F006F4128 /* CrossWordGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossWordGameUITests.swift; sourceTree = "<group>"; };
+		351F72551E80589F006F4128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351F72611E8059AF006F4128 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		351F72641E805BD9006F4128 /* LoginWithTwitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginWithTwitter.swift; path = CrossWordGame/LoginWithTwitter.swift; sourceTree = "<group>"; };
+		35509D161E81486C00EB0502 /* CrossWordGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrossWordGame-Bridging-Header.h"; sourceTree = "<group>"; };
+		35509D181E81486D00EB0502 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		35509D191E81486D00EB0502 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		355C71301E82C34300619587 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTableViewController.swift; path = CrossWordGame/MenuTableViewController.swift; sourceTree = "<group>"; };
+		355C713C1E82CD9900619587 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		355C713D1E82CD9900619587 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		355C713E1E82CD9900619587 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		355C71421E82CE4000619587 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		355C71441E82CE5900619587 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		35C324E81E8AE1F9004386E8 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = CrossWordGame/LoginController.swift; sourceTree = "<group>"; };
+		35C324ED1E8BF30D004386E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		498905EC03FFB816C1966DB2 /* Pods-CrossWordGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossWordGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossWordGame/Pods-CrossWordGame.debug.xcconfig"; sourceTree = "<group>"; };
+		658A95B8E27B6E60A5FCADBD /* Pods-CrossWordGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossWordGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossWordGameUITests/Pods-CrossWordGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		702961702048596341FEB151 /* Pods-CrossWordGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossWordGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrossWordGameTests/Pods-CrossWordGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		70B9A2BD3B2AAFFFEBC5BEEB /* Pods-CrossWordGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossWordGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossWordGameTests/Pods-CrossWordGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BE7AEA176673B4721B61014 /* Pods_CrossWordGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrossWordGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92568D960F6EE155B047396E /* Pods_CrossWordGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrossWordGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8A90F6559C49E2527A2D25 /* Pods-CrossWordGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossWordGameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrossWordGameUITests/Pods-CrossWordGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CBA1D8493FB32AEBB8E000D0 /* Pods_CrossWordGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrossWordGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDDBF628EAD11E43BD9A230 /* Pods-CrossWordGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossWordGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrossWordGame/Pods-CrossWordGame.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		351F722D1E80589F006F4128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E393ACA8255D8B0616BA3B6 /* Pods_CrossWordGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351F72411E80589F006F4128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFBC9F9AD381E377E7081CD /* Pods_CrossWordGameTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351F724C1E80589F006F4128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057DB3120424EA936DDE998B /* Pods_CrossWordGameUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A8958F2629BE523F557AC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBA1D8493FB32AEBB8E000D0 /* Pods_CrossWordGame.framework */,
+				7BE7AEA176673B4721B61014 /* Pods_CrossWordGameTests.framework */,
+				92568D960F6EE155B047396E /* Pods_CrossWordGameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		351F72271E80589F006F4128 = {
+			isa = PBXGroup;
+			children = (
+				35509D151E81484E00EB0502 /* Supporting Files */,
+				351F72681E814503006F4128 /* Controller */,
+				351F72321E80589F006F4128 /* CrossWordGame */,
+				351F72471E80589F006F4128 /* CrossWordGameTests */,
+				351F72521E80589F006F4128 /* CrossWordGameUITests */,
+				351F72311E80589F006F4128 /* Products */,
+				40CD493239B15947E9A0DB23 /* Pods */,
+				03A8958F2629BE523F557AC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		351F72311E80589F006F4128 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				351F72301E80589F006F4128 /* CrossWordGame.app */,
+				351F72441E80589F006F4128 /* CrossWordGameTests.xctest */,
+				351F724F1E80589F006F4128 /* CrossWordGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		351F72321E80589F006F4128 /* CrossWordGame */ = {
+			isa = PBXGroup;
+			children = (
+				351F72351E80589F006F4128 /* ViewController.swift */,
+				351F72611E8059AF006F4128 /* GoogleService-Info.plist */,
+				351F72331E80589F006F4128 /* AppDelegate.swift */,
+				35C324EC1E8BF30D004386E8 /* Main.storyboard */,
+				351F723A1E80589F006F4128 /* Assets.xcassets */,
+				351F723C1E80589F006F4128 /* LaunchScreen.storyboard */,
+				351F723F1E80589F006F4128 /* Info.plist */,
+			);
+			path = CrossWordGame;
+			sourceTree = "<group>";
+		};
+		351F72471E80589F006F4128 /* CrossWordGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				351F72481E80589F006F4128 /* CrossWordGameTests.swift */,
+				351F724A1E80589F006F4128 /* Info.plist */,
+			);
+			path = CrossWordGameTests;
+			sourceTree = "<group>";
+		};
+		351F72521E80589F006F4128 /* CrossWordGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				351F72531E80589F006F4128 /* CrossWordGameUITests.swift */,
+				351F72551E80589F006F4128 /* Info.plist */,
+			);
+			path = CrossWordGameUITests;
+			sourceTree = "<group>";
+		};
+		351F72681E814503006F4128 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				355C71301E82C34300619587 /* MenuTableViewController.swift */,
+				355C71441E82CE5900619587 /* MenuTableViewCell.swift */,
+				355C71421E82CE4000619587 /* MenuViewController.swift */,
+				355C713C1E82CD9900619587 /* ScoreViewController.swift */,
+				355C713D1E82CD9900619587 /* SettingViewController.swift */,
+				355C713E1E82CD9900619587 /* AboutViewController.swift */,
+				351F72641E805BD9006F4128 /* LoginWithTwitter.swift */,
+				35C324E81E8AE1F9004386E8 /* LoginController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		35509D151E81484E00EB0502 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35509D181E81486D00EB0502 /* SWRevealViewController.h */,
+				35509D191E81486D00EB0502 /* SWRevealViewController.m */,
+				35509D161E81486C00EB0502 /* CrossWordGame-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40CD493239B15947E9A0DB23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				498905EC03FFB816C1966DB2 /* Pods-CrossWordGame.debug.xcconfig */,
+				DBDDBF628EAD11E43BD9A230 /* Pods-CrossWordGame.release.xcconfig */,
+				70B9A2BD3B2AAFFFEBC5BEEB /* Pods-CrossWordGameTests.debug.xcconfig */,
+				702961702048596341FEB151 /* Pods-CrossWordGameTests.release.xcconfig */,
+				658A95B8E27B6E60A5FCADBD /* Pods-CrossWordGameUITests.debug.xcconfig */,
+				AE8A90F6559C49E2527A2D25 /* Pods-CrossWordGameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		351F722F1E80589F006F4128 /* CrossWordGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351F72581E80589F006F4128 /* Build configuration list for PBXNativeTarget "CrossWordGame" */;
+			buildPhases = (
+				4F0EC09BFAB30A2F9E30CE85 /* [CP] Check Pods Manifest.lock */,
+				351F722C1E80589F006F4128 /* Sources */,
+				351F722D1E80589F006F4128 /* Frameworks */,
+				351F722E1E80589F006F4128 /* Resources */,
+				292B9B376AD7D93BC5FFA469 /* [CP] Embed Pods Frameworks */,
+				1DB00F97C878DC57118F42C2 /* [CP] Copy Pods Resources */,
+				351F72631E805AB6006F4128 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossWordGame;
+			productName = CrossWordGame;
+			productReference = 351F72301E80589F006F4128 /* CrossWordGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		351F72431E80589F006F4128 /* CrossWordGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351F725B1E80589F006F4128 /* Build configuration list for PBXNativeTarget "CrossWordGameTests" */;
+			buildPhases = (
+				8D65238EABCB89E95B0B3C70 /* [CP] Check Pods Manifest.lock */,
+				351F72401E80589F006F4128 /* Sources */,
+				351F72411E80589F006F4128 /* Frameworks */,
+				351F72421E80589F006F4128 /* Resources */,
+				25095C6AC1898BF57C6CCD9A /* [CP] Embed Pods Frameworks */,
+				C38833EA893D62D21F541A9F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				351F72461E80589F006F4128 /* PBXTargetDependency */,
+			);
+			name = CrossWordGameTests;
+			productName = CrossWordGameTests;
+			productReference = 351F72441E80589F006F4128 /* CrossWordGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		351F724E1E80589F006F4128 /* CrossWordGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351F725E1E80589F006F4128 /* Build configuration list for PBXNativeTarget "CrossWordGameUITests" */;
+			buildPhases = (
+				65918CC72E9B70CEB5B5A11C /* [CP] Check Pods Manifest.lock */,
+				351F724B1E80589F006F4128 /* Sources */,
+				351F724C1E80589F006F4128 /* Frameworks */,
+				351F724D1E80589F006F4128 /* Resources */,
+				31D43ADDA2B3F220D943CAA6 /* [CP] Embed Pods Frameworks */,
+				462C6F05CE033BD2B0FB7E8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				351F72511E80589F006F4128 /* PBXTargetDependency */,
+			);
+			name = CrossWordGameUITests;
+			productName = CrossWordGameUITests;
+			productReference = 351F724F1E80589F006F4128 /* CrossWordGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		351F72281E80589F006F4128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bartuğ Maden";
+				TargetAttributes = {
+					351F722F1E80589F006F4128 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KTGCJF67K6;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					351F72431E80589F006F4128 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KTGCJF67K6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 351F722F1E80589F006F4128;
+					};
+					351F724E1E80589F006F4128 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KTGCJF67K6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 351F722F1E80589F006F4128;
+					};
+				};
+			};
+			buildConfigurationList = 351F722B1E80589F006F4128 /* Build configuration list for PBXProject "CrossWordGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 351F72271E80589F006F4128;
+			productRefGroup = 351F72311E80589F006F4128 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				351F722F1E80589F006F4128 /* CrossWordGame */,
+				351F72431E80589F006F4128 /* CrossWordGameTests */,
+				351F724E1E80589F006F4128 /* CrossWordGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		351F722E1E80589F006F4128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351F723E1E80589F006F4128 /* LaunchScreen.storyboard in Resources */,
+				351F72621E8059AF006F4128 /* GoogleService-Info.plist in Resources */,
+				351F723B1E80589F006F4128 /* Assets.xcassets in Resources */,
+				35C324EE1E8BF30D004386E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351F72421E80589F006F4128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351F724D1E80589F006F4128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DB00F97C878DC57118F42C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossWordGame/Pods-CrossWordGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25095C6AC1898BF57C6CCD9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossWordGameTests/Pods-CrossWordGameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		292B9B376AD7D93BC5FFA469 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossWordGame/Pods-CrossWordGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31D43ADDA2B3F220D943CAA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossWordGameUITests/Pods-CrossWordGameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		351F72631E805AB6006F4128 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 81bf156b59e92f9909fcdd72fbae57b2c5a96721 e1fc1da04a1df11f3eec93e5c723ee1b42b4469231ff9cfb26a8ad3a1c8e02cb";
+		};
+		462C6F05CE033BD2B0FB7E8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossWordGameUITests/Pods-CrossWordGameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F0EC09BFAB30A2F9E30CE85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65918CC72E9B70CEB5B5A11C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D65238EABCB89E95B0B3C70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C38833EA893D62D21F541A9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossWordGameTests/Pods-CrossWordGameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351F722C1E80589F006F4128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C324E91E8AE1F9004386E8 /* LoginController.swift in Sources */,
+				351F72361E80589F006F4128 /* ViewController.swift in Sources */,
+				351F72341E80589F006F4128 /* AppDelegate.swift in Sources */,
+				355C71311E82C34300619587 /* MenuTableViewController.swift in Sources */,
+				351F72651E805BD9006F4128 /* LoginWithTwitter.swift in Sources */,
+				355C71451E82CE5900619587 /* MenuTableViewCell.swift in Sources */,
+				355C71431E82CE4000619587 /* MenuViewController.swift in Sources */,
+				35509D1A1E81486D00EB0502 /* SWRevealViewController.m in Sources */,
+				355C71401E82CD9900619587 /* SettingViewController.swift in Sources */,
+				355C71411E82CD9900619587 /* AboutViewController.swift in Sources */,
+				355C713F1E82CD9900619587 /* ScoreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351F72401E80589F006F4128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351F72491E80589F006F4128 /* CrossWordGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351F724B1E80589F006F4128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351F72541E80589F006F4128 /* CrossWordGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		351F72461E80589F006F4128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 351F722F1E80589F006F4128 /* CrossWordGame */;
+			targetProxy = 351F72451E80589F006F4128 /* PBXContainerItemProxy */;
+		};
+		351F72511E80589F006F4128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 351F722F1E80589F006F4128 /* CrossWordGame */;
+			targetProxy = 351F72501E80589F006F4128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		351F723C1E80589F006F4128 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351F723D1E80589F006F4128 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		35C324EC1E8BF30D004386E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C324ED1E8BF30D004386E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		351F72561E80589F006F4128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		351F72571E80589F006F4128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		351F72591E80589F006F4128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498905EC03FFB816C1966DB2 /* Pods-CrossWordGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = KTGCJF67K6;
+				INFOPLIST_FILE = CrossWordGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.CrossWordGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CrossWordGame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		351F725A1E80589F006F4128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBDDBF628EAD11E43BD9A230 /* Pods-CrossWordGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = KTGCJF67K6;
+				INFOPLIST_FILE = CrossWordGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.CrossWordGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CrossWordGame-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		351F725C1E80589F006F4128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B9A2BD3B2AAFFFEBC5BEEB /* Pods-CrossWordGameTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KTGCJF67K6;
+				INFOPLIST_FILE = CrossWordGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.CrossWordGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossWordGame.app/CrossWordGame";
+			};
+			name = Debug;
+		};
+		351F725D1E80589F006F4128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702961702048596341FEB151 /* Pods-CrossWordGameTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KTGCJF67K6;
+				INFOPLIST_FILE = CrossWordGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.CrossWordGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossWordGame.app/CrossWordGame";
+			};
+			name = Release;
+		};
+		351F725F1E80589F006F4128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658A95B8E27B6E60A5FCADBD /* Pods-CrossWordGameUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KTGCJF67K6;
+				INFOPLIST_FILE = CrossWordGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.CrossWordGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CrossWordGame;
+			};
+			name = Debug;
+		};
+		351F72601E80589F006F4128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8A90F6559C49E2527A2D25 /* Pods-CrossWordGameUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KTGCJF67K6;
+				INFOPLIST_FILE = CrossWordGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.CrossWordGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CrossWordGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		351F722B1E80589F006F4128 /* Build configuration list for PBXProject "CrossWordGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351F72561E80589F006F4128 /* Debug */,
+				351F72571E80589F006F4128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351F72581E80589F006F4128 /* Build configuration list for PBXNativeTarget "CrossWordGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351F72591E80589F006F4128 /* Debug */,
+				351F725A1E80589F006F4128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351F725B1E80589F006F4128 /* Build configuration list for PBXNativeTarget "CrossWordGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351F725C1E80589F006F4128 /* Debug */,
+				351F725D1E80589F006F4128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351F725E1E80589F006F4128 /* Build configuration list for PBXNativeTarget "CrossWordGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351F725F1E80589F006F4128 /* Debug */,
+				351F72601E80589F006F4128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 351F72281E80589F006F4128 /* Project object */;
+}

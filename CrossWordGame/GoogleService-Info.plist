@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>415705367187-pr21s543bd7qbd1aj77jsdcr9k5gv5n5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.415705367187-pr21s543bd7qbd1aj77jsdcr9k5gv5n5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBq9330cNs2IMdz4np4Aj2UwRjG0MBZyfI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>415705367187</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Capstone.CrossWordGame</string>
+	<key>PROJECT_ID</key>
+	<string>crossword-a57a7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>crossword-a57a7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:415705367187:ios:9b760f1e20c261b6</string>
+	<key>DATABASE_URL</key>
+	<string>https://crossword-a57a7.firebaseio.com</string>
+</dict>
+</plist>

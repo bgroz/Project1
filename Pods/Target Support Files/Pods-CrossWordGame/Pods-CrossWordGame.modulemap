@@ -1,0 +1,6 @@
+framework module Pods_CrossWordGame {
+  umbrella header "Pods-CrossWordGame-umbrella.h"
+
+  export *
+  module * { export * }
+}

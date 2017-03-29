@@ -1,0 +1,6 @@
+framework module Pods_CrossWordGameUITests {
+  umbrella header "Pods-CrossWordGameUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
