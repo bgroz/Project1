@@ -16,7 +16,6 @@ class ScoreViewController: UIViewController {
 
         btnMenuBar.target = SWRevealViewController()
         btnMenuBar.action = #selector(SWRevealViewController.revealToggle(_:))
-        
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
     }
 

@@ -9,8 +9,9 @@
 import UIKit
 
 class MenuTableViewCell: UITableViewCell {
-
+    
     @IBOutlet weak var lblMenuName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		057DB3120424EA936DDE998B /* Pods_CrossWordGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92568D960F6EE155B047396E /* Pods_CrossWordGameUITests.framework */; };
+		134A7AB71E8C6AD300BC73D8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134A7AB61E8C6AD300BC73D8 /* MainViewController.swift */; };
+		13521F9C1E8C6D0500160105 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13521F9B1E8C6D0500160105 /* RegisterViewController.swift */; };
+		13521F9E1E8C6F5F00160105 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13521F9D1E8C6F5F00160105 /* LoginViewController.swift */; };
 		351F72341E80589F006F4128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F72331E80589F006F4128 /* AppDelegate.swift */; };
 		351F72361E80589F006F4128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F72351E80589F006F4128 /* ViewController.swift */; };
 		351F723B1E80589F006F4128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351F723A1E80589F006F4128 /* Assets.xcassets */; };
@@ -21,9 +24,7 @@
 		355C713F1E82CD9900619587 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C713C1E82CD9900619587 /* ScoreViewController.swift */; };
 		355C71401E82CD9900619587 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C713D1E82CD9900619587 /* SettingViewController.swift */; };
 		355C71411E82CD9900619587 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C713E1E82CD9900619587 /* AboutViewController.swift */; };
-		355C71431E82CE4000619587 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C71421E82CE4000619587 /* MenuViewController.swift */; };
 		355C71451E82CE5900619587 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C71441E82CE5900619587 /* MenuTableViewCell.swift */; };
-		35C324E91E8AE1F9004386E8 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C324E81E8AE1F9004386E8 /* LoginController.swift */; };
 		35C324EE1E8BF30D004386E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C324EC1E8BF30D004386E8 /* Main.storyboard */; };
 		6AFBC9F9AD381E377E7081CD /* Pods_CrossWordGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE7AEA176673B4721B61014 /* Pods_CrossWordGameTests.framework */; };
 		8E393ACA8255D8B0616BA3B6 /* Pods_CrossWordGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA1D8493FB32AEBB8E000D0 /* Pods_CrossWordGame.framework */; };
@@ -47,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		134A7AB61E8C6AD300BC73D8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		13521F9B1E8C6D0500160105 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		13521F9D1E8C6F5F00160105 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		351F72301E80589F006F4128 /* CrossWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		351F72331E80589F006F4128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		351F72351E80589F006F4128 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,9 +72,7 @@
 		355C713C1E82CD9900619587 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		355C713D1E82CD9900619587 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		355C713E1E82CD9900619587 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		355C71421E82CE4000619587 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		355C71441E82CE5900619587 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
-		35C324E81E8AE1F9004386E8 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = CrossWordGame/LoginController.swift; sourceTree = "<group>"; };
 		35C324ED1E8BF30D004386E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		498905EC03FFB816C1966DB2 /* Pods-CrossWordGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossWordGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossWordGame/Pods-CrossWordGame.debug.xcconfig"; sourceTree = "<group>"; };
 		658A95B8E27B6E60A5FCADBD /* Pods-CrossWordGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossWordGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossWordGameUITests/Pods-CrossWordGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -180,14 +182,15 @@
 		351F72681E814503006F4128 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				134A7AB61E8C6AD300BC73D8 /* MainViewController.swift */,
 				355C71301E82C34300619587 /* MenuTableViewController.swift */,
 				355C71441E82CE5900619587 /* MenuTableViewCell.swift */,
-				355C71421E82CE4000619587 /* MenuViewController.swift */,
 				355C713C1E82CD9900619587 /* ScoreViewController.swift */,
 				355C713D1E82CD9900619587 /* SettingViewController.swift */,
 				355C713E1E82CD9900619587 /* AboutViewController.swift */,
 				351F72641E805BD9006F4128 /* LoginWithTwitter.swift */,
-				35C324E81E8AE1F9004386E8 /* LoginController.swift */,
+				13521F9B1E8C6D0500160105 /* RegisterViewController.swift */,
+				13521F9D1E8C6F5F00160105 /* LoginViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -293,7 +296,7 @@
 				TargetAttributes = {
 					351F722F1E80589F006F4128 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = KTGCJF67K6;
+						DevelopmentTeam = Z97P9ME524;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -515,16 +518,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35C324E91E8AE1F9004386E8 /* LoginController.swift in Sources */,
 				351F72361E80589F006F4128 /* ViewController.swift in Sources */,
 				351F72341E80589F006F4128 /* AppDelegate.swift in Sources */,
+				134A7AB71E8C6AD300BC73D8 /* MainViewController.swift in Sources */,
 				355C71311E82C34300619587 /* MenuTableViewController.swift in Sources */,
 				351F72651E805BD9006F4128 /* LoginWithTwitter.swift in Sources */,
 				355C71451E82CE5900619587 /* MenuTableViewCell.swift in Sources */,
-				355C71431E82CE4000619587 /* MenuViewController.swift in Sources */,
 				35509D1A1E81486D00EB0502 /* SWRevealViewController.m in Sources */,
 				355C71401E82CD9900619587 /* SettingViewController.swift in Sources */,
+				13521F9C1E8C6D0500160105 /* RegisterViewController.swift in Sources */,
 				355C71411E82CD9900619587 /* AboutViewController.swift in Sources */,
+				13521F9E1E8C6F5F00160105 /* LoginViewController.swift in Sources */,
 				355C713F1E82CD9900619587 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -679,10 +683,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = KTGCJF67K6;
+				DEVELOPMENT_TEAM = Z97P9ME524;
 				INFOPLIST_FILE = CrossWordGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Capstone.CrossWordGame;
+				PRODUCT_BUNDLE_IDENTIFIER = CrossWordGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CrossWordGame-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -696,10 +701,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = KTGCJF67K6;
+				DEVELOPMENT_TEAM = Z97P9ME524;
 				INFOPLIST_FILE = CrossWordGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Capstone.CrossWordGame;
+				PRODUCT_BUNDLE_IDENTIFIER = CrossWordGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CrossWordGame-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
