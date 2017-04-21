@@ -40,8 +40,6 @@ class MenuTableViewController: UIViewController, UITableViewDataSource,UITableVi
     {
        
         let cell:MenuTableViewCell = tableView.dequeueReusableCell(withIdentifier: "MenuTableViewCell") as! MenuTableViewCell
-        
-      
         cell.lblMenuName.text! = menuNameArr[indexPath.row]
         return cell
         
@@ -54,6 +52,7 @@ class MenuTableViewController: UIViewController, UITableViewDataSource,UITableVi
         let revealViewController: SWRevealViewController = self.revealViewController()
         
         let cell:MenuTableViewCell = tableView.cellForRow(at: indexPath) as! MenuTableViewCell
+
         
         if cell.lblMenuName.text! == "Home"
         {
@@ -61,6 +60,7 @@ class MenuTableViewController: UIViewController, UITableViewDataSource,UITableVi
             let mainStoryboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             let desController = mainStoryboard.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
             let newFrontViewController = UINavigationController.init(rootViewController: desController)
+            
             
             revealViewController.pushFrontViewController(newFrontViewController, animated: true)
             
@@ -98,7 +98,9 @@ class MenuTableViewController: UIViewController, UITableViewDataSource,UITableVi
             
         }
         
+        
     }
+    
     
     
     /*

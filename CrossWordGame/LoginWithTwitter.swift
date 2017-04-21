@@ -8,9 +8,16 @@
 
 import Foundation
 import TwitterKit
+import FirebaseAuth
+import FirebaseDatabase
+import Fabric
 
 
 class LoginWithTwitter: ViewController {
+    
+   
+   
+    /*
     
     func loginButton(loginButton: TWTRLogInButton!, didCompleteWithResult result: TWTRLogInCompletion!, error: NSError!)
     {
@@ -32,8 +39,13 @@ class LoginWithTwitter: ViewController {
             btnLoginWithTwitter.center = self.view.center
             self.view.addSubview(btnLoginWithTwitter)
         }
+        
 
         }
+ 
+ 
+*/
+    
     }
     
     
