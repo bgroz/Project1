@@ -36,21 +36,21 @@ class LoginViewController: UIViewController {
     
     @IBAction func SendButtonItem(_ sender: Any) {
         // Login Butonuna Basıldıktan sonra MainViewController'a geçiş
-//        checkUserIfLogIn()
-//        
-//        if txtUsername.text != "" && txtPassword.text != "" {
-//            
+        checkUserIfLogIn()
+        
+        if txtUsername.text != "" && txtPassword.text != "" {
+            
         
             let navigationVc = storyboard?.instantiateViewController(withIdentifier: "SWRevealViewController")
             self.present(navigationVc!, animated: true, completion: nil)
-//
-//        } else {
-//            let alert = UIAlertController(title: "Message", message: "Please fill the blanks", preferredStyle: UIAlertControllerStyle.alert)
-//            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-//            self.present(alert,animated: true, completion: nil)
-//        }
-//        
-     
+
+        } else {
+            let alert = UIAlertController(title: "Message", message: "Please fill the blanks", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert,animated: true, completion: nil)
+        }
+        
+    
         
         
     }
@@ -121,13 +121,4 @@ class LoginViewController: UIViewController {
 }
 
 
-/*
- // MARK: - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
- // Get the new view controller using segue.destinationViewController.
- // Pass the selected object to the new view controller.
- }
- */
 

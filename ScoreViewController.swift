@@ -11,6 +11,7 @@ import UIKit
 class ScoreViewController: UIViewController {
     
     @IBOutlet weak var btnMenuBar: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

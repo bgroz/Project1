@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sUg-NX-2XG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sUg-NX-2XG">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -29,7 +29,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController restorationIdentifier="ViewController" storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="CrossWordGame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="CrossWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -178,7 +178,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmz-ts-Bhj">
-                                <rect key="frame" x="20" y="375" width="374" height="229"/>
+                                <rect key="frame" x="20" y="375" width="339" height="229"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -189,14 +189,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Play Game"/>
                                 <connections>
-                                    <segue destination="YU2-Uu-0eR" kind="show" id="eNW-Gn-hzc"/>
+                                    <action selector="levelSender:" destination="YH1-Jv-fjx" eventType="touchUpInside" id="vAB-EO-oid"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="bWy-Qw-FgI">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="6qt-BX-uE0"/>
+                        <barButtonItem key="leftBarButtonItem" image="reveal-icon" id="6qt-BX-uE0"/>
                     </navigationItem>
                     <connections>
                         <outlet property="btnMenuBar" destination="6qt-BX-uE0" id="QZG-ff-wIf"/>
@@ -204,7 +204,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e1F-Ek-Sto" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2960.8695652173915" y="89.673913043478265"/>
+            <point key="canvasLocation" x="2960.8000000000002" y="89.505247376311857"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="O3F-5h-xaQ">
@@ -216,7 +216,7 @@
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9fE-Lx-RfA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -225,31 +225,62 @@
             <point key="canvasLocation" x="2961" y="888"/>
         </scene>
         <!--Chapter View Controller-->
-        <scene sceneID="dra-Gr-o5i">
+        <scene sceneID="uJU-kY-QFl">
             <objects>
-                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="k8p-PC-mZc" customClass="ChapterViewController" customModule="CrossWordGame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChapterViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4Wx-FE-P16" customClass="ChapterViewController" customModule="CrossWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="aga-3S-N8W"/>
-                        <viewControllerLayoutGuide type="bottom" id="MSR-Sh-Nn1"/>
+                        <viewControllerLayoutGuide type="top" id="z4O-U3-0rO"/>
+                        <viewControllerLayoutGuide type="bottom" id="xpD-Ey-dob"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QGq-qq-6Bo">
+                    <view key="view" contentMode="scaleToFill" id="Ufh-lf-imN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Puzzle olacağı bölüm " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjK-DZ-hKk">
-                                <rect key="frame" x="104" y="323" width="166" height="20"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ryh-b6-P74">
+                                <rect key="frame" x="0.0" y="62" width="375" height="368"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="jOa-J0-NYL">
+                                    <size key="itemSize" width="20" height="20"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collection_Cell" id="lu8-Ua-ZlS" customClass="ChapterCollectionViewCell" customModule="CrossWordGame" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="19" height="19"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="19" height="19"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CLC-Au-8OH">
+                                                    <rect key="frame" x="0.0" y="0.0" width="19" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </view>
+                                        <size key="customSize" width="19" height="19"/>
+                                        <connections>
+                                            <outlet property="txtField" destination="CLC-Au-8OH" id="m1E-z3-SPb"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="MyCollectionView" destination="ryh-b6-P74" id="GTA-7i-drV"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a9Z-TC-saG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L7W-h7-fgl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3717.5999999999999" y="886.50674662668678"/>
+            <point key="canvasLocation" x="3770.4000000000001" y="887.40629685157433"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="VYo-bc-cM9">
@@ -271,10 +302,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.032848719507455826" green="0.15332537889480591" blue="0.57510495185852051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.72156862749999995" green="0.72156862749999995" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="QiI-aJ-QwW">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="ar9-AM-Nuv"/>
+                        <barButtonItem key="leftBarButtonItem" image="reveal-icon" id="ar9-AM-Nuv"/>
                     </navigationItem>
                     <connections>
                         <outlet property="btnMenuBar" destination="ar9-AM-Nuv" id="y6w-H6-R92"/>
@@ -307,7 +338,7 @@
                         <color key="backgroundColor" red="0.032848719507455826" green="0.15332537889480591" blue="0.57510495185852051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="K9e-fJ-aeq">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="Z5q-Mr-bVc"/>
+                        <barButtonItem key="leftBarButtonItem" image="reveal-icon" id="Z5q-Mr-bVc"/>
                     </navigationItem>
                     <connections>
                         <outlet property="btnMenuBar" destination="Z5q-Mr-bVc" id="pkc-65-kS4"/>
@@ -340,7 +371,7 @@
                         <color key="backgroundColor" red="0.032848719507455826" green="0.15332537889480591" blue="0.57510495185852051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="vmB-9O-Hul">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="6rS-2H-HJe"/>
+                        <barButtonItem key="leftBarButtonItem" image="reveal-icon" id="6rS-2H-HJe"/>
                     </navigationItem>
                     <connections>
                         <outlet property="btnMenuBar" destination="6rS-2H-HJe" id="oqR-7P-QVh"/>
@@ -481,4 +512,7 @@
             <point key="canvasLocation" x="1784.057971014493" y="90.489130434782609"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="reveal-icon" width="22" height="17"/>
+    </resources>
 </document>
