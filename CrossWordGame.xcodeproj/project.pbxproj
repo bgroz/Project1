@@ -11,9 +11,10 @@
 		134A7AB71E8C6AD300BC73D8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134A7AB61E8C6AD300BC73D8 /* MainViewController.swift */; };
 		13521F9C1E8C6D0500160105 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13521F9B1E8C6D0500160105 /* RegisterViewController.swift */; };
 		13521F9E1E8C6F5F00160105 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13521F9D1E8C6F5F00160105 /* LoginViewController.swift */; };
-		1381B40D1EAA717E00C05F5C /* LevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1381B40C1EAA717E00C05F5C /* LevelCollectionViewCell.swift */; };
+		13688C931EB1465D00AF8575 /* LevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13688C921EB1465D00AF8575 /* LevelCollectionViewCell.swift */; };
 		1381B40F1EAA719E00C05F5C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1381B40E1EAA719E00C05F5C /* GameViewController.swift */; };
-		13DC3C941EAA740300457CD3 /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC3C931EAA740300457CD3 /* ChapterViewController.swift */; };
+		13FB84F11EB1391100358E4B /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB84F01EB1391100358E4B /* ChapterViewController.swift */; };
+		13FB84F31EB1395500358E4B /* ChapterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB84F21EB1395500358E4B /* ChapterCollectionViewCell.swift */; };
 		350D098E1E966BD200795AFB /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D098D1E966BD200795AFB /* WordList.swift */; };
 		351F72341E80589F006F4128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F72331E80589F006F4128 /* AppDelegate.swift */; };
 		351F72361E80589F006F4128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F72351E80589F006F4128 /* ViewController.swift */; };
@@ -54,9 +55,10 @@
 		134A7AB61E8C6AD300BC73D8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		13521F9B1E8C6D0500160105 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		13521F9D1E8C6F5F00160105 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		1381B40C1EAA717E00C05F5C /* LevelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCollectionViewCell.swift; sourceTree = "<group>"; };
+		13688C921EB1465D00AF8575 /* LevelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCollectionViewCell.swift; sourceTree = "<group>"; };
 		1381B40E1EAA719E00C05F5C /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		13DC3C931EAA740300457CD3 /* ChapterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
+		13FB84F01EB1391100358E4B /* ChapterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
+		13FB84F21EB1395500358E4B /* ChapterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterCollectionViewCell.swift; sourceTree = "<group>"; };
 		350D098D1E966BD200795AFB /* WordList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
 		351F72301E80589F006F4128 /* CrossWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		351F72331E80589F006F4128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -134,7 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				355C71441E82CE5900619587 /* MenuTableViewCell.swift */,
-				1381B40C1EAA717E00C05F5C /* LevelCollectionViewCell.swift */,
+				13FB84F21EB1395500358E4B /* ChapterCollectionViewCell.swift */,
+				13688C921EB1465D00AF8575 /* LevelCollectionViewCell.swift */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -217,7 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				134A7AB61E8C6AD300BC73D8 /* MainViewController.swift */,
-				13DC3C931EAA740300457CD3 /* ChapterViewController.swift */,
+				13FB84F01EB1391100358E4B /* ChapterViewController.swift */,
 				1381B40E1EAA719E00C05F5C /* GameViewController.swift */,
 				355C71301E82C34300619587 /* MenuTableViewController.swift */,
 				355C713C1E82CD9900619587 /* ScoreViewController.swift */,
@@ -559,13 +562,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1381B40F1EAA719E00C05F5C /* GameViewController.swift in Sources */,
+				13FB84F31EB1395500358E4B /* ChapterCollectionViewCell.swift in Sources */,
 				351F72361E80589F006F4128 /* ViewController.swift in Sources */,
 				351F72341E80589F006F4128 /* AppDelegate.swift in Sources */,
 				134A7AB71E8C6AD300BC73D8 /* MainViewController.swift in Sources */,
-				1381B40D1EAA717E00C05F5C /* LevelCollectionViewCell.swift in Sources */,
-				13DC3C941EAA740300457CD3 /* ChapterViewController.swift in Sources */,
+				13FB84F11EB1391100358E4B /* ChapterViewController.swift in Sources */,
 				355C71311E82C34300619587 /* MenuTableViewController.swift in Sources */,
 				355C71451E82CE5900619587 /* MenuTableViewCell.swift in Sources */,
+				13688C931EB1465D00AF8575 /* LevelCollectionViewCell.swift in Sources */,
 				350D098E1E966BD200795AFB /* WordList.swift in Sources */,
 				35509D1A1E81486D00EB0502 /* SWRevealViewController.m in Sources */,
 				355C71401E82CD9900619587 /* SettingViewController.swift in Sources */,

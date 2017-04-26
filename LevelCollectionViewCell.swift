@@ -13,7 +13,7 @@ class LevelCollectionViewCell: UICollectionViewCell {
     
     var levelImageView: UIImageView!
     
-    
+    //collectionViewCell içine eklenecek UIimageView özellikleri
     override func awakeFromNib() {
         
         levelImageView = UIImageView(frame: contentView.frame)
